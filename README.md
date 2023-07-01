@@ -1,11 +1,11 @@
-About pydorado
-==============
+About pydorado-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydorado-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/passaH2O/dorado
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydorado-feedstock/blob/main/LICENSE.txt)
 
 Summary: dorado - Lagrangian particle routing routine via weighted random walks
 
