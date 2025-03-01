@@ -1,5 +1,5 @@
 {% set name = "pydorado" %}
-{% set version = "2.5.3" %}
+{% set version = "2.5.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pydorado-{{ version }}.tar.gz
-  sha256: 643ab92c9889637153eef0fd6ebc8cddb6327d8431c468a1e6bc85e27a3a394e
+  sha256: f2eae7ec3c4ae1a15dfd31cd3de345d4ad9af9ca327b36fbfebe12492d740977
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
